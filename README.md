@@ -33,6 +33,17 @@ $ npm run proto:install-local
 $ npm run proto:auth
 ```
 
+## Prerequisitos
+
+- Clonar el archivo **.env.template** y renombrarlo a **.
+  env**
+- Cambiar las variables de entorno
+- Levantar la base de datos
+
+```bash
+$ docker-compose up -d
+```
+
 ## Ejecutar app
 
 ```bash
